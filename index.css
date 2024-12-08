@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+} /* For body styling it sets a default font family for easier reading*/
+
+h1 {
+    text-align: center;
+} /* Heading style it aligns the heading at the center*/
+
+input {
+    margin: 5px;
+} /* Adds margin around input fields*/
+
+button {
+    margin: 5px;
+} /* Adds margin around buttons */
+
+.purchased {
+    text-decoration: line-through;
+    background-color: #d3ffd3; 
+} /* The text decoration applies a line through the purchased item and the background colour sets a light green background color for items markedn as purchased*/ 

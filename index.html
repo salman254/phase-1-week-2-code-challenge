@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Shopping List</title>
+    <link rel="stylesheet" href="index.css"> <!-- External CSS link -->
+</head>
+<body>
+    <h1>Shopping List</h1> <!-- Heading Displays the title of the application-->
+    <!-- Input allow users to enter an item name and price in Ksh-->
+    <input type="text" id="item-input" placeholder="Item name" />
+    <input type="number" id="price-input" placeholder="Price (Ksh)" />
+    <!-- Buttons allow users to add items to the shopping list and also to clear items-->
+    <button id="add-button">Add Item</button>
+    <button id="clear-button">Clear List</button>
+<!-- Unordered list to display the added items -->
+    <ul id="shopping-list"></ul>
+
+    <script src="index.js"></script> <!-- External JS file -->
+</body>
+</html>
